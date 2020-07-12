@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Google Maps Java</string>
     <string name="title_activity_maps">Map</string>
+    <string name="marker_in_sydney">Marker in Sydney</string>
 </resources>

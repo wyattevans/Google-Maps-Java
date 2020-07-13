@@ -4,4 +4,5 @@
     <string name="title_activity_maps">Map</string>
     <string name="marker_in_sydney">Marker in Sydney</string>
     <string name="on_create_hit">onCreate hit.</string>
+    <string name="on_map_ready_hit">onMapReady hit.</string>
 </resources>

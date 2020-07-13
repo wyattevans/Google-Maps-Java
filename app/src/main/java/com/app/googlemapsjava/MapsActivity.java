@@ -30,7 +30,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        Log.d(simpleTAG, "onMapReady hit.");
+        Log.d(simpleTAG, getString(R.string.on_map_ready_hit));
         LatLng sydney = new LatLng(-34, 151);
         googleMap.addMarker(new MarkerOptions().position(sydney).title(getString(R.string.marker_in_sydney)));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
